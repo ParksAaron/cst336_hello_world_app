@@ -1,0 +1,18 @@
+img{
+    margin: 100px;
+    border-radius: 25%;
+    -webkit-filter:saturate(500%);
+    filter: saturate(500%);
+}
+
+.highlighted{
+    background-color: yellow;
+}
+
+#first{
+    background-color: blue;
+}
+
+.not{
+    background-color: rgb(254,27,7)
+}
