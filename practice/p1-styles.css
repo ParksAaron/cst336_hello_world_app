@@ -1,0 +1,27 @@
+#page-title{
+    background-color: #003366;
+    color: white;
+}
+
+.img-with-text{
+    text-align: justify;
+    width: 263px;
+    float: left;
+    padding: 15px;
+    
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+#schoolSum{
+    padding: 10px;
+    text-align: left;
+    font-size: medium;
+}
+
+a{
+    color: #006699;
+}
