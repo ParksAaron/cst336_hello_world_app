@@ -1,0 +1,9 @@
+div{
+    border-color: blue;
+    border-style: dashed;
+}
+
+span{
+    border-color: red;
+    border-style: dotted;
+}
