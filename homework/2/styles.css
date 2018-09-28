@@ -1,0 +1,65 @@
+body{
+    background-color: #B2BBF2;
+    
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    color: #D26864;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.images{
+    position: relative;
+    display: inline-block;
+}
+
+
+#heading{
+    text-align: center;
+}
+
+#reccomendations{
+    display: inline-block;
+    color: black;
+    padding: 25px;
+    text-align: center;
+}
+
+#parent{
+    margin: auto;
+    width: 90%;
+    padding: 5px;
+}
+
+h2{
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.rock h2{
+    font-size: 25px;
+}
+
+.rap{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 12px;
+}
+
+.rock{
+    font-family: 'Rock Salt', cursive;
+    font-size: 9px;
+}
+
+.metal{
+    font-family: 'Metal Mania', cursive;
+    font-size: 14px;
+}
+
+.pop{
+    font-family: 'Crafty Girls', cursive;
+    font-size: 13px;
+}
