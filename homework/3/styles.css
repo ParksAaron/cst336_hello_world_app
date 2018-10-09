@@ -1,0 +1,38 @@
+h1{
+    color: #C96567;
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: 2px 2px #ff0000;
+}
+
+body{
+    text-align: center;
+    width: 1000px;
+    border-radius: 20px;
+    margin: 0 auto;
+    background-color: #557A95;
+    background-image: url("background.jpg");
+    color: 	#D3CFFF;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+
+}
+
+input[type=submit]{
+    background-color: #111418;
+    color: #B9B6DD;
+    width: 150px;
+    height: 50px;
+    font-size: 30px;
+}
+
+input{
+    height: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+
+}
+
+img{
+    width: 10%;
+}
+
