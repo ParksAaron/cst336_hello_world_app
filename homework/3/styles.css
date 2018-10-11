@@ -9,7 +9,7 @@ body{
     width: 1000px;
     border-radius: 20px;
     margin: 0 auto;
-    background-color: #557A95;
+    background-color: #111418;
     background-image: url("background.jpg");
     color: 	#D3CFFF;
     font-family: 'Raleway', sans-serif;
@@ -34,5 +34,7 @@ input{
 
 img{
     width: 10%;
+    display: inline-block;
+    float: left;
 }
 
