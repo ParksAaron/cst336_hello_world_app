@@ -1,0 +1,16 @@
+body {
+	text-align: center;
+	font-size: 2em;
+}
+.error {
+	color: red;
+}
+table {
+	margin: 0 auto;
+	border: 1px solid black;
+	width: 100%;
+}
+th {
+	width: 150px;
+	height: 100px;
+}
