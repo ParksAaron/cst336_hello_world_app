@@ -9,7 +9,7 @@ function getDatabaseConnection() {
         $dbname = "memes_v2"; 
     } else {
         // running on Heroku
-        $host = "us-cdbr-iron-east-01.cleardb.ne";
+        $host = "us-cdbr-iron-east-01.cleardb.net";
         $username = "b1d03bff8b1206";
         $password = "3d62f01c"; 
         $dbname = "heroku_bef497be6d6a068"; 
