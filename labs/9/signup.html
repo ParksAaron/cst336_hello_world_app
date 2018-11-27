@@ -1,0 +1,103 @@
+<html>
+
+<head>
+
+   <title> Ajax Signup </title>
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+    <header>
+
+      <h1>Signup</h1>
+
+    </header>
+
+
+
+      <form method="post">
+
+        Username:   <input type="text" id="username"> <br><br>
+
+        Zip Code:     <input type="text" id="zipcode" name="zipcode"> <br><br>
+
+        City: <input type="text" name="city" id="city"> <br><br>
+        
+        Longitude: <input type="text" name="longitude" id="longitude"> <br><br>
+        
+        Latitude: <input type="text" name="latitude" id="latitude"> <br><br>
+
+      </form>
+
+     
+
+      <div id="zipcodeResult"></div>
+results
+
+
+  <script> 
+
+    
+
+    $("input").change(getZipcodes);
+
+    
+
+    function getZipcodes() {      
+
+      $.ajax({
+
+            type: "get",
+
+             url: "https://www.showdeolabs.com/cors?url=http://itcdland.csumb.edu/~milara/ajax/cityInfoByZip.php",
+
+        dataType: "json",
+
+            data: {
+                
+                "zip":$("#zipcode").val()
+
+                   //"city":$("#city").val(),
+
+                   //"state"  :$("#state").val(),
+
+                   //"latitude" :$("#latitude").val(),
+
+                   //"longitude":$("#longitude").val(),
+
+            },
+
+            success: function(data,status) {
+                console.log(data["zip"]);
+
+              //$('#zipcodeResult').html(data["metadata"].title + "<br>")
+
+                 for (var i=0; i < data.length; i++ ) {
+
+                  $('#zipcodeResult').append(data[i] + "<br/>");
+
+                 }
+                 
+
+              },
+
+            complete: function(data,status) { //optional, used for debugging purposes
+
+                 //alert(status);
+
+            }
+
+         });
+
+    }
+
+
+
+  </script>
+
+  </body>
+
+  </html>
