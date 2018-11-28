@@ -1,0 +1,50 @@
+body{
+    font-family: 'VT323', monospace;
+    background-color: black;
+    color: #00ff00;
+}
+
+input, textarea {
+
+  background-color : black; 
+  color: white;
+  border-color: #00ff00;
+
+}
+
+.list { 
+    background: black;
+    color: white;
+    border-color: #00ff00;
+}
+
+.error{
+    color: red;
+}
+
+.success{
+    color: green;
+}
+
+h1{
+    text-align: center;
+}
+
+form{
+     margin-left: 25%;
+     font-size: 25px;
+}
+
+.submit{
+    margin-left: 30%;
+    color: #00ff00;
+    width: 100px;
+    height: 30px;
+    border-color: #00ff00;
+    font-family: 'VT323', monospace;
+    font-size: 20px;
+}
+
+.scroll{
+    font-size: 15px;
+}
