@@ -7,3 +7,14 @@ span{
     border-color: red;
     border-style: dotted;
 }
+
+@font-face { 
+    font-family: Alcefun; 
+    src: url('fonts/alcefun.ttf');
+} 
+
+.test{
+    font-family: Alcefun;
+    color: #1ed301;
+    text-align: center;
+}
